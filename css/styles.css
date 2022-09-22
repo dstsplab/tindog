@@ -1,0 +1,143 @@
+#main-body {
+  text-align: center;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+#title .container {
+  padding: 3% 8% 7%;
+}
+
+/* containers */
+.container {
+  padding: 3% 20%;
+}
+
+.main-heading {
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.image-phone {
+  transform: rotate(20deg);
+  width: 55%;
+}
+
+/* navbar */
+.navbar {
+  margin: 0 0 4.5rem 0;
+}
+
+.nav-item a {
+  margin: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+}
+
+.navbar-brand {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+/* download-button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* container */
+.container {
+  padding: 7% 20%;
+}
+
+/* features */
+.feature-box {
+  padding: 5%;
+}
+
+.feature-box h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.feature-box p {
+  color: #8f8f8f;
+}
+
+.icon {
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonials */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+  font-weight: bold;
+}
+
+#testimonials img {
+  width: 15%;
+  border-radius: 100%;
+  margin: 10px 20px 20px 20px;
+}
+
+#press {
+  background-color: #ef8172;
+}
+
+.press-log {
+  width: 20%;
+}
+
+/* carousel-item */
+.carousel-item {
+  padding: 5% 19%;
+}
+
+/* pricing */
+.button-margin {
+  margin-top: 55px;
+}
+
+/* cta */
+#cta {
+  background-color: #ff4c68;
+}
+
+#cta h3 {
+  color: #fff;
+}
+
+/* footer */
+#footer i {
+  margin: 0 10px;
+}
+
+#footer p {
+  padding: 20px 0;
+  color: #8f8f8f;
+}
+
+@media (max-width: 1028px) {
+  .image-phone {
+    transform: rotate(0deg);
+    width: 65%;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+}
